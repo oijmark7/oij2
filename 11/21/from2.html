@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>품 연습하기</title>
+</head>
+<body>
+  <from>
+    <h2>숫자 입력하기</h2>
+    <p>
+      <label><input type="checkbox">빨강색</label>
+      <input type="number" min="0" max="3"> 개 (최대 3개)
+    </p>
+    <p>
+      <label><input type="checkbox">초록색</label>
+      <!-- input type number에서 value를 넣으면 초기값 설정-->
+      <input type="number" min="0" max="5" value="1"> 개 (최대 5개)
+    </p>
+    <p>
+      <label><input type="checkbox">빨강색</label>
+      <input type="range" min="0" max="3"> 개 (최대 3개)
+    </p>
+    <p>
+      <label><input type="checkbox">초록색</label>
+      <!-- input type number에서 value를 넣으면 초기값 설정-->
+      <input type="range" min="0" max="5" value="1"> 개 (최대 5개)
+    </p>
+
+    <hr>
+    <h2>날짜 입력하기</h2>
+    <p><input type="date"></p>
+    <p><input type="month"></p>
+    <p><input type="week"></p>
+    <p><input type="date" min="2021-11-15" max="2021-11-25"></p>
+    <hr>
+    <h2>시간 입력하기</h2>
+    <p><input type="time"></p>
+    <p><input type="datetime-local"></p>
+    <hr>
+    <h2>버튼</h2>
+    <p>
+      <input type="submit">
+      <input type="reset">
+      <input type="button" value="새 버튼" onclick="window.open(https://naver.com)">
+      <input type="image" src="guaba.jpg" width="50">
+    </p>
+    <hr>
+    <p>사과<input type="number" min="1" max="10">개</p>
+    <p>배<input type="number" min="1" max="4">개</p>
+    <p>귤<input type="number" min="1" max="32">개</p>
+    <p>바나나<input type="number" min="1" max="10">개</p>
+    <p><input type="checkbox">택배 <input type="checkbox">해외배송 <input type="date">까지</p>
+    <p>
+      <input type="submit">
+      <input type="reset">
+    </p>
+
+
+  </from>
+
+
+
+
+
+
+
+</body>
+</html>
