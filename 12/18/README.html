@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>box model</title>
+    <style>
+        .accent{
+            color: red;
+        }
+        div{
+            border: 1px solid black;
+            padding: 5px;
+            margin: 10px;
+        }
+        .box1{
+            width: 400px;
+            height: 100px;
+            box-shadow: 2px -2px 5px;
+        }
+        .box2{
+            width: 50px;
+            height: 100px;
+            box-shadow: 5px -5px 15px 5px blue;
+            /* 가로 세로 흐림 번짐 */
+        }
+    </style>
+</head>
+<body>
+<h1> 속담</h1>
+<div>세 살 버릇<p class="accent">여든</p>까지 간다</div>
+<div>세 살 버릇<span class="accent">여든</span>까지 간다</div>
+<p>원수는<br>외나무 다리에서 만난다.</p>
+
+<div class="box1"></div>
+<div class="box2"></div>
+</body>
+</html>
